@@ -80,15 +80,18 @@ body, html {
 
 /* Social Media Icons */
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
+    padding: 2%;
+    font-size: 2em;
+    width: 8%;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
     color: rgb(41, 38, 96);
 }
 
+.fa:hover{
+  text-decoration: none;
+}
 
 .fa-facebook:hover{
     background: #3B5998;
@@ -111,3 +114,4 @@ body, html {
 .social {
   padding-left: 41%;
   padding-top: 1.3%;
+}
