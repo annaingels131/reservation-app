@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body, html {
+   height: 100%;
+   margin: auto;
+}
+
 /* Navbar Section */
 
 .navbar-brand {
@@ -45,3 +52,62 @@
   color: #252762;
   transform: translateY(200%);
 }
+
+/*Application Stuff */
+
+
+/*Blue Div*/
+#blue-div{
+  height: 30%;
+  width: 100%;
+  background-color: rgb(41, 38, 96);
+  margin-top: 5%;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+/*Contact Info*/
+#contact{
+  margin-left: 78%;
+}
+ /*Footer Starts*/
+
+#footer{
+  height: 20%;
+  width: 100%;
+  background-color: rgb(253, 233, 89);
+}
+
+/* Social Media Icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: rgb(41, 38, 96);
+}
+
+
+.fa-facebook:hover{
+    background: #3B5998;
+    color: #fff;
+}
+
+
+.fa-twitter:hover {
+    background: #55ACEE;
+    color: #000;
+}
+
+.fa-instagram:hover {
+    background: #517fa4;
+    color: #fff;
+}
+
+/*Social Media Div */
+
+.social {
+  padding-left: 41%;
+  padding-top: 1.3%;
