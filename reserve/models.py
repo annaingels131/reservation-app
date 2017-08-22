@@ -20,9 +20,9 @@ class SanFranciscoTrain(models.Model):
         ('ANAHEIM', 'AN'),
         
     )
-    to = models.CharField(max_length = 1, choices=TO_LOC,)
+    to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
-    time = models.CharField(max_length = 7)
+    time = models.CharField(max_length = 6)
     seats = models.CharField(max_length = 3)
 
 class MilroyTrain(models.Model):
@@ -42,9 +42,9 @@ class MilroyTrain(models.Model):
         ('ANAHEIM', 'AN'),
               
     )
-    to = models.CharField(max_length = 1, choices=TO_LOC,)
+    to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
-    time = models.CharField(max_length = 7)
+    time = models.CharField(max_length = 6)
     seats = models.CharField(max_length = 3)
 
 class GilroyTrain(models.Model):
@@ -64,7 +64,7 @@ class GilroyTrain(models.Model):
         ('ANAHEIM', 'AN'),
               
     )
-    to = models.CharField(max_length = 1, choices=TO_LOC,)
+    to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
     time = models.CharField(max_length = 7)
     seats = models.CharField(max_length = 3)
@@ -86,7 +86,7 @@ class SanJoseTrain(models.Model):
         ('ANAHEIM', 'AN'),
               
     )
-    to = models.CharField(max_length = 1, choices=TO_LOC,)
+    to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
     time = models.CharField(max_length = 7)
     seats = models.CharField(max_length = 3)
@@ -108,7 +108,7 @@ class MercedTrain(models.Model):
         ('ANAHEIM', 'AN'),
         
     )
-    to = models.CharField(max_length = 1, choices=TO_LOC,)
+    to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
     time = models.CharField(max_length = 7)
     seats = models.CharField(max_length = 3)
@@ -130,7 +130,7 @@ class FresnoTrain(models.Model):
         ('ANAHEIM', 'AN'),
               
     )
-    to = models.CharField(max_length = 1, choices=TO_LOC,)
+    to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
     time = models.CharField(max_length = 7)
     seats = models.CharField(max_length = 3)
@@ -152,7 +152,7 @@ class KingstonTrain(models.Model):
         ('ANAHEIM', 'AN'),
               
     )
-    to = models.CharField(max_length = 1, choices=TO_LOC,)
+    to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
     time = models.CharField(max_length = 7)
     seats = models.CharField(max_length = 3)
@@ -174,7 +174,7 @@ class BakersfieldTrain(models.Model):
         ('ANAHEIM', 'AN'),
               
     )
-    to = models.CharField(max_length = 1, choices=TO_LOC,)
+    to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
     time = models.CharField(max_length = 7)
     seats = models.CharField(max_length = 3)
@@ -196,7 +196,7 @@ class PalmdaleTrain(models.Model):
         ('ANAHEIM', 'AN'),
               
     )
-    to = models.CharField(max_length = 1, choices=TO_LOC,)
+    to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
     time = models.CharField(max_length = 7)
     seats = models.CharField(max_length = 3)
@@ -218,7 +218,7 @@ class BurbankTrain(models.Model):
         ('ANAHEIM', 'AN'),
               
     )
-    to = models.CharField(max_length = 1, choices=TO_LOC,)
+    to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
     time = models.CharField(max_length = 7)
     seats = models.CharField(max_length = 3)
@@ -240,7 +240,7 @@ class LosAngelesTrain(models.Model):
         ('ANAHEIM', 'AN'),
               
     )
-    to = models.CharField(max_length = 1, choices=TO_LOC,)
+    to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
     time = models.CharField(max_length = 7)
     seats = models.CharField(max_length = 3)
@@ -262,7 +262,7 @@ class OrangeCountyTrain(models.Model):
         ('ANAHEIM', 'AN'),
               
     )
-    to = models.CharField(max_length = 1, choices=TO_LOC,)
+    to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
     time = models.CharField(max_length = 7)
     seats = models.CharField(max_length = 3)
@@ -284,7 +284,7 @@ class AnaheimTrain(models.Model):
         ('ORANGE COUNTY', 'OC'),
               
     )
-    to = models.CharField(max_length = 1, choices=TO_LOC,)
+    to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
     time = models.CharField(max_length = 7)
     seats = models.CharField(max_length = 3)
