@@ -1,5 +1,6 @@
 from django.contrib import admin
-from .models import SanFranTrain
+from .models import SFTrain
 
 # Register your models here.
-admin.site.register(SanFranTrain)
+admin.site.register(SFTrain)
+admin.site.register(
