@@ -49,15 +49,86 @@
   </div>
   <!-- Hero Ends -->
 
-  <div class="col-md-12">
-    <div class="application">
-      <h1>From:</h1>
-      <h1>To:</h1>
-      <h1>Date:</h1>
-      <button type="button" class="btn btn-default">One Way</button> <button type="button" class="btn btn-default">Round Trip</button>
-      <h1>Number of seats</h1>
+  <!-- Left Side Inputs Begins -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="application">
+          <div class="input"> <!-- From City Input Begins -->
+            <div class="input-group">
+              <div class="input-group-btn">
+                <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" data-target="#from">From: <span class="caret"></span></button>
+
+              </div><!-- /btn-group -->
+              <input type="text" class="form-control" aria-label="...">
+            </div><!-- /input-group -->
+          </div> <!-- From City Input Ends -->
+
+          <div class="input"> <!-- To City Input Begins -->
+            <div class="input-group">
+              <div class="input-group-btn">
+                <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" data-target="#to">To: <span class="caret"></span></button>
+
+              </div><!-- /btn-group -->
+              <input type="text" class="form-control" aria-label="...">
+            </div><!-- /input-group -->
+          </div> <!-- To City Input Ends -->
+
+          <div class="input"> <!-- Date Input Begins -->
+            <div class="input-group">
+              <div class="input-group-btn">
+                <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" data-target="#date">Date: <span class="caret"></span></button>
+
+              </div><!-- /btn-group -->
+              <input type="date" class="form-control" aria-label="...">
+            </div><!-- /input-group -->
+          </div> <!-- Date input Ends -->
+
+          <div class="input btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-default">One Way</button>
+            <button type="button" class="btn btn-default">Round Trip</button>
+          </div>
+
+          <div class="input">
+            <div class="input-group">
+              <div class="input-group-btn">
+                <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" data-target="#seats">Number of Seats: <span class="caret"></span></button>
+
+              </div><!-- /btn-group -->
+              <input type="number" class="form-control" aria-label="...">
+            </div><!-- /input-group -->
+          </div>
+
+        </div> <!-- Application ends -->
+      </div>
+      <!-- Left Side Inputs End -->
+      <!-- Right Side Options Begin -->
+      <div class="col-sm-6">
+        <div class="from-container" id="from">
+          <ul class="dropdown-menu">
+            <li><a href="#">Option 1</a></li>
+            <li><a href="#">Option 2</a></li>
+            <li><a href="#">Option 3</a></li>
+            <li><a href="#">Option 4</a></li>
+          </ul>
+        </div>
+        <div class="from-container" id="to">
+          <ul class="dropdown-menu">
+            <li><a href="#">Option 1</a></li>
+            <li><a href="#">Option 2</a></li>
+            <li><a href="#">Option 3</a></li>
+            <li><a href="#">Option 4</a></li>
+          </ul>
+        </div>
+        <div class="date-container" id="date">
+          
+        </div>
+      </div>
+      <!-- Right Side Options End -->
     </div>
   </div>
+
+
   <div class="col-md-12" id="blue-div">
     <div class="col-md-3 offset-md-3" id="contact">
       <h1>Contact Information</h1>

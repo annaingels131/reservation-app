@@ -55,6 +55,67 @@ body, html {
 
 /*Application Stuff */
 
+.application {
+  display: block;
+  font-size: 20px;
+  color: #6D6E70;
+  margin: 50px 0px 0px;
+  border-right: 2px solid #252762;
+}
+
+.input {
+  margin: 10px;
+  border: none;
+}
+
+input {
+  border: none;
+}
+
+input.form-control {
+  border: none;
+}
+
+.btn-default {
+  border: 1px solid #FDE732;
+  font-size: 16px;
+  font-family: 'Helvetica';
+}
+
+.btn-default:hover {
+  background-color: #FDE732;
+  border-color: #FDE732;
+  color: #252762;
+}
+
+ul.dropdown-menu {
+  margin: 50px 0px 0px;
+
+}
+
+.dropdown-toggle {
+  background-color: transparent;
+  border: 1px solid #FDE732;
+  font-size: 16px;
+  font-family: 'Helvetica';
+}
+
+.dropdown-menu {
+  box-shadow: none;
+  border: none;
+}
+
+.dropdown-menu>li>a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #252762;
+}
+
+.dropdown-menu>li>a:hover {
+    color: #252762;
+    text-decoration: none;
+    background-color: #FDE732;
+}
 
 /*Blue Div*/
 #blue-div{
