@@ -22,7 +22,7 @@ class SanFranciscoTrain(models.Model):
     )
     to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
-    time = models.CharField(max_length = 6)
+    time = models.CharField(max_length = 8)
     seats = models.CharField(max_length = 3)
 
 class MilroyTrain(models.Model):
@@ -44,7 +44,7 @@ class MilroyTrain(models.Model):
     )
     to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
-    time = models.CharField(max_length = 6)
+    time = models.CharField(max_length = 8)
     seats = models.CharField(max_length = 3)
 
 class GilroyTrain(models.Model):
@@ -66,7 +66,7 @@ class GilroyTrain(models.Model):
     )
     to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
-    time = models.CharField(max_length = 7)
+    time = models.CharField(max_length = 8)
     seats = models.CharField(max_length = 3)
 
 class SanJoseTrain(models.Model):
@@ -88,7 +88,7 @@ class SanJoseTrain(models.Model):
     )
     to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
-    time = models.CharField(max_length = 7)
+    time = models.CharField(max_length = 8)
     seats = models.CharField(max_length = 3)
 
 class MercedTrain(models.Model):
@@ -110,7 +110,7 @@ class MercedTrain(models.Model):
     )
     to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
-    time = models.CharField(max_length = 7)
+    time = models.CharField(max_length = 8)
     seats = models.CharField(max_length = 3)
 
 class FresnoTrain(models.Model):
@@ -132,7 +132,7 @@ class FresnoTrain(models.Model):
     )
     to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
-    time = models.CharField(max_length = 7)
+    time = models.CharField(max_length = 8)
     seats = models.CharField(max_length = 3)
 
 class KingstonTrain(models.Model):
@@ -154,7 +154,7 @@ class KingstonTrain(models.Model):
     )
     to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
-    time = models.CharField(max_length = 7)
+    time = models.CharField(max_length = 8)
     seats = models.CharField(max_length = 3)
 
 class BakersfieldTrain(models.Model):
@@ -176,7 +176,7 @@ class BakersfieldTrain(models.Model):
     )
     to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
-    time = models.CharField(max_length = 7)
+    time = models.CharField(max_length = 8)
     seats = models.CharField(max_length = 3)
 
 class PalmdaleTrain(models.Model):
@@ -198,7 +198,7 @@ class PalmdaleTrain(models.Model):
     )
     to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
-    time = models.CharField(max_length = 7)
+    time = models.CharField(max_length = 8)
     seats = models.CharField(max_length = 3)
 
 class BurbankTrain(models.Model):
@@ -220,7 +220,7 @@ class BurbankTrain(models.Model):
     )
     to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
-    time = models.CharField(max_length = 7)
+    time = models.CharField(max_length = 8)
     seats = models.CharField(max_length = 3)
 
 class LosAngelesTrain(models.Model):
@@ -242,7 +242,7 @@ class LosAngelesTrain(models.Model):
     )
     to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
-    time = models.CharField(max_length = 7)
+    time = models.CharField(max_length = 8)
     seats = models.CharField(max_length = 3)
 
 class OrangeCountyTrain(models.Model):
@@ -264,7 +264,7 @@ class OrangeCountyTrain(models.Model):
     )
     to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
-    time = models.CharField(max_length = 7)
+    time = models.CharField(max_length = 8)
     seats = models.CharField(max_length = 3)
 
 class AnaheimTrain(models.Model):
@@ -286,7 +286,7 @@ class AnaheimTrain(models.Model):
     )
     to = models.CharField(max_length = 20, choices=TO_LOC,)
     date = models.DateField()
-    time = models.CharField(max_length = 7)
+    time = models.CharField(max_length = 8)
     seats = models.CharField(max_length = 3)
 
 
