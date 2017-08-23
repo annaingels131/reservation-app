@@ -1,5 +1,8 @@
 from django.db import models
 
+# admin inputs
+
+
 # station models
 
 
