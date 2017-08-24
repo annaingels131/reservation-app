@@ -55,6 +55,85 @@ body, html {
 
 /*Application Stuff */
 
+.application {
+  display: block;
+  font-size: 20px;
+  color: #6D6E70;
+  margin: 50px 0px 0px;
+  border-right: 2px solid #252762;
+}
+
+.input {
+  margin: 10px;
+  border: none;
+}
+
+.form-control:focus {
+    border-color: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+input {
+  border: none;
+}
+
+input.form-control {
+  border: none;
+  box-shadow: none;
+}
+
+.input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group {
+  margin-right: 0px; /* This fixes random disappearing border */
+}
+
+.btn-default {
+  color: #6D6E70;
+  border: 1px solid #FDE732;
+  font-size: 16px;
+  font-family: 'Helvetica';
+}
+
+.btn-default:hover {
+  background-color: #FDE732;
+  border-color: #FDE732;
+  color: #252762;
+}
+
+.btn-default:focus {
+  color: #252762;
+  background-color: #FDE732;
+  border-color: #FDE732;
+}
+
+ul.dropdown-menu {
+  margin: 50px 0px 0px;
+}
+
+.dropdown-toggle {
+  background-color: transparent;
+  border: 1px solid #FDE732;
+  font-size: 16px;
+  font-family: 'Helvetica';
+}
+
+.dropdown-menu {
+  box-shadow: none;
+  border: none;
+}
+
+.dropdown-menu>li>a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #252762;
+}
+
+.dropdown-menu>li>a:hover {
+    color: #252762;
+    text-decoration: none;
+    background-color: #FDE732;
+}
 
 /*Blue Div*/
 #blue-div{
