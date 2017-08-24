@@ -84,6 +84,11 @@ body, html {
   color: #6D6E70;
   margin: 50px 0px 0px;
   border-right: 2px solid #252762;
+  padding-right: 0px;
+}
+
+.app {
+  padding-right: 0px;
 }
 
 .input {
@@ -129,6 +134,7 @@ input.form-control {
   background-color: #FDE732;
   border-color: #FDE732;
 }
+
 
 ul.dropdown-menu {
   margin: 50px 0px 0px;
